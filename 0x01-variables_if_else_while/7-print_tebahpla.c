@@ -9,9 +9,9 @@ int main(void)
 
 {
 
-for(char letters 50 ; letters >= 25; letters--)
+for(char alphabet = 50 ; alphabet >= 25; alphabet--)
 {
-putchar(letters)
+putchar(alphabet)
 }
 
 putchar('\n');
