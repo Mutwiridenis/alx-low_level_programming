@@ -15,6 +15,8 @@ int main(void)
 		printf("%c", ch);
 	}
 
+        print_alphabet();
 	return (0);
+
 
 }
