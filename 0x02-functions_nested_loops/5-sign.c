@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_sign - return 0 letter not lowercase, 1 letter lowerc 
+ * print_sign - return 0 letter not lowercase
  *
- *  Return: Always 0.
-/**
+ * Return: Always(0)
+*/
 int print_sign(int n)
 
 {
