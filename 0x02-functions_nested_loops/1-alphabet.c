@@ -1,21 +1,36 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *print _alphabet
- *
- * Return: void
-*/
-void print_alphabet(void)
-{
-    char a;
 
-    for (a = 'a'; a<= 'z'; a++)
-     {
-        _putchar(a);
-      }
-          _putchar('\n');
+ * print_alphabet - print alphabet lowercase
+
+ *
+
+ * Return: Always 0.
+
+ */
+
+
+
+void print_alphabet(void)
+
+{
+
+char alphabet;
+
+
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+
+{
+
+_putchar(alphabet);
+
 }
 
 
 
+_putchar('\n');
 
 
+
+}
