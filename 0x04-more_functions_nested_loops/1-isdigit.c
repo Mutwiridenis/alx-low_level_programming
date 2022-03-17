@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _isdigit - function that prints the sign of a umber
- *
- * @c: is a digit
- *
- * Return: 1 if c is a digit, 0 otherwise
+ * _isdigit - if is a digit
+ *@C: print int
+ * Return: Always 0.
 */
 
 int _isdigit(int c)
