@@ -1,37 +1,34 @@
 #include "main.h"
 /**
- * print_diagonal - function that draws a diagonal line on the treminal
- *
- * @n: number
- *
- * Return: diagonal line on the terminal
+ * print_duagonal - print diagonal line
+ *@n: print int
+ * Return : Always 0.
 */
-
 void print_diagonal(int n)
 {
-	int filas;
-	int columnas;
-	
-	if (n > 0)
-	{
-		for (filas = 0; filas < n; filas++)
-		{
-			for (columnas = 0; columnas <= filas; columnas++)
-			{
-				if (filas == columnas)
-				{
-					_putchar('\\');
-					_putchar('\n');
-				}
-				else
-				{
-					_putchat(' ');
-				}
-			}
-		}
-	}
-	else
-	{
-		_putchar('\n');
-	}
+
+int i;
+int b;
+
+if (n > 0)
+{
+for (i = 0; i < n; i++)
+{
+for (b = 0; b < i; b++)
+{
+_putchar (' ');
+}
+_putchar (92);
+_putchar ('\n');
+
+}
+
+}
+
+
+else
+{
+_putchar ('\n');
+}
+
 }
